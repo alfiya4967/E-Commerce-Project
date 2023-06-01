@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>E-Commerce Website</title>
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="C:/Users/Asus/Desktop/E-commerce/css/style.css" />
+</head>
+<body>
+    <!--Main Navigation-->
+<header>
+  <!-- Jumbotron -->
+  <div class="p-3 text-center bg-white border-bottom">
+    <div class="container">
+      <div class="row gy-3">
+        <!-- Left elements -->
+        <div class="col-lg-2 col-sm-4 col-4">
+          <a href="https://mdbootstrap.com/" target="_blank" class="float-start brandLink">
+            <h3 class="BrandName"><span>NIX</span><span class="cut">XON</span> </h3>
+            <!-- <img src="C:\Users\Asus\Desktop\E-commerce\images\BrandLogoFinal.jpeg" height="40" width="200" /> -->
+          </a>
+        </div>
+        <!-- Left elements -->
+
+        <!-- Sign in and all -->
+        <div class="order-lg-last col-lg-5 col-sm-8 col-8 optionsTop">
+          <div class="d-flex float-end moveDown">
+            <a href="#!" class="me-1 border rounded py-1 px-3 nav-link d-flex align-items-center"> <i class="fas fa-user-alt m-1 me-md-2"></i><p class="d-none d-md-block mb-0">Sign in</p> </a>
+            <a href="#!" class="me-1 border rounded py-1 px-3 nav-link d-flex align-items-center" > <i class="fas fa-heart m-1 me-md-2"></i><p class="d-none d-md-block mb-0">Wishlist</p> </a>
+            <a href="#!" class="border rounded py-1 px-3 nav-link d-flex align-items-center" > <i class="fas fa-shopping-cart m-1 me-md-2"></i><p class="d-none d-md-block mb-0">My cart</p> </a>
+          </div>
+        </div>
+        <!-- Center elements -->
+
+        <!-- Right elements -->
+        <!-- <div class="col-lg-5 col-md-12 col-12 ">
+          <div class="input-group float-center">
+            <div class="form-outline">
+              <input type="search" id="form1" class="form-control moveDown" placeholder="Search the site…" />
+             
+            </div>
+            <button type="button" class="btnForSearch btn btn-primary shadow-0 moveDown">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div> -->
+        <!-- Right elements -->
+      </div>
+    </div>
+  </div>
+  <!-- Jumbotron -->
+
+<!-- Navbar -->
+
+
+<nav class="navbar navbar-expand-lg myNavbar ">
+  <div class="container-fluid">
+    
+    <button class="navbar-toggler data-bs-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active firstTag" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Best Sellers</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Prime
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Hot Picks of the Day</a>
+        </li>
+      </ul>
+      <form class="d-flex searchBarTop" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+  <!-- Navbar -->
+
+
+  <!-- Jumbotron -->
+  <div class="bg-primary text-white py-5 blueBack" >
+    <div class="container py-5 weNeedMargin">
+      <h1>
+        Best products & <br />
+        brands in our store
+      </h1>
+      <p>
+        Trendy Products, Factory Prices, Excellent Service
+      </p>
+      <button type="button" class="btn btn-outline-light">
+        Learn more
+      </button>
+      <button type="button" class="btn btn-light shadow-0 text-primary pt-2 border border-white">
+        <span class="pt-1">Purchase now</span>
+      </button>
+    </div>
+  </div>
+  <!-- Jumbotron -->
+</header>
+<!-- Products -->
+<section>
+  <div class="container my-5">
+    <header class="mb-4">
+      <h3>New products</h3>
+    </header>
+
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-6 d-flex">
+        <div class="card w-100 my-2 shadow-2-strong">
+          <img src="https://m.media-amazon.com/images/I/31PUFfaRjJL._SX300_SY300_QL70_FMwebp_.jpg" class="card-img-top" style="aspect-ratio: 1 / 1" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">GoPro HERO11 4K Waterproof Action Camera - Black</h5>
+            <p class="card-text">₹49,190</p>
+            <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+              <a href="#!" class="btn btn-primary shadow-0 me-1">Add to cart</a>
+              <a href="#!" class="btn btn-light border px-2 pt-2 icon-hover"><i class="fas fa-heart fa-lg text-secondary px-1"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 d-flex">
+        <div class="card w-100 my-2 shadow-2-strong">
+          <img src="https://m.media-amazon.com/images/I/41CmC9dgBdL._SX300_SY300_QL70_FMwebp_.jpg" class="card-img-top" style="aspect-ratio: 1 / 1" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">EvoFox Katana Gaming Keyboard</h5>
+            <p class="card-text">₹2,499</p>
+            <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+              <a href="#!" class="btn btn-primary shadow-0 me-1">Add to cart</a>
+              <a href="#!" class="btn btn-light border px-2 pt-2 icon-hover"><i class="fas fa-heart fa-lg text-secondary px-1"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 d-flex">
+        <div class="card w-100 my-2 shadow-2-strong">
+          <img src="https://m.media-amazon.com/images/I/61amb0CfMGL._SX679_.jpg" class="card-img-top" style="aspect-ratio: 1 / 1" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">OnePlus 11 5G (Eternal Green, 8GB RAM, 128GB Storage)</h5>
+            <p class="card-text">₹9,999</p>
+            <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+              <a href="#!" class="btn btn-primary shadow-0 me-1">Add to cart</a>
+              <a href="#!" class="btn btn-light border px-2 pt-2 icon-hover"><i class="fas fa-heart fa-lg text-secondary px-1"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 d-flex">
+        <div class="card w-100 my-2 shadow-2-strong">
+          <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/4.webp" class="card-img-top" style="aspect-ratio: 1 / 1" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Apple iPhone 12 Pro 6.1" RAM 6GB 512GB Unlocked</h5>
+            <p class="card-text">₹1,09,900</p>
+            <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+              <a href="#!" class="btn btn-primary shadow-0 me-1">Add to cart</a>
+              <a href="#!" class="btn btn-light border px-2 pt-2 icon-hover"><i class="fas fa-heart fa-lg text-secondary px-1"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 d-flex">
+        <div class="card w-100 my-2 shadow-2-strong">
+          <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MKU83_VW_PF+watch-41-alum-midnight-nc-8s_VW_PF_WF_CO_GEO_IN?wid=700&hei=700&trim=1%2C0&fmt=p-jpg&qlt=95&.v=1683226539556" class="card-img-top" style="aspect-ratio: 1 / 1" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Apple Watch Series 8 Black</h5>
+            <p class="card-text">₹42,999</p>
+            <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+              <a href="#!" class="btn btn-primary shadow-0 me-1">Add to cart</a>
+              <a href="#!" class="btn btn-light border px-2 pt-2 icon-hover"><i class="fas fa-heart fa-lg text-secondary px-1"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 d-flex">
+        <div class="card w-100 my-2 shadow-2-strong">
+          <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/6.webp" class="card-img-top" style="aspect-ratio: 1 / 1" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Black Digital Watch</h5>
+            <p class="card-text">₹499</p>
+            <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+              <a href="#!" class="btn btn-primary shadow-0 me-1">Add to cart</a>
+              <a href="#!" class="btn btn-light border px-2 pt-2 icon-hover"><i class="fas fa-heart fa-lg text-secondary px-1"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 d-flex">
+        <div class="card w-100 my-2 shadow-2-strong">
+          <img src="https://m.media-amazon.com/images/I/61flgQb9s1L._SX679_.jpg" class="card-img-top" style="aspect-ratio: 1 / 1" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">HyperX Cloud Core Wireless Gaming On Ear Headset (Black)</h5>
+            <p class="card-text">₹9,190</p>
+            <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+              <a href="#!" class="btn btn-primary shadow-0 me-1">Add to cart</a>
+              <a href="#!" class="btn btn-light border icon-hover px-2 pt-2"><i class="fas fa-heart fa-lg text-secondary px-1"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 d-flex">
+        <div class="card w-100 my-2 shadow-2-strong">
+          <img src="https://m.media-amazon.com/images/I/41CkUREi8xL._UX569_.jpg" class="card-img-top" style="aspect-ratio: 1 / 1" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Minecraft certified T-shirts</h5>
+            <p class="card-text">₹1,200</p>
+            <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+              <a href="#!" class="btn btn-primary shadow-0 me-1">Add to cart</a>
+              <a href="#!" class="btn btn-light border px-2 pt-2 icon-hover"><i class="fas fa-heart fa-lg text-secondary px-1"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Products -->
+
+<!-- Feature -->
+<section class="mt-5" style="background-color: #f5f5f5;">
+  <div class="container text-dark pt-3">
+    <header class="pt-4 pb-3">
+      <h3>Why choose us</h3>
+    </header>
+
+    <div class="row mb-4">
+      <div class="col-lg-4 col-md-6">
+        <figure class="d-flex align-items-center mb-4">
+          <span class="rounded-circle bg-white p-3 d-flex me-2 mb-2">
+            <i class="fas fa-camera-retro fa-2x fa-fw text-primary floating"></i>
+          </span>
+          <figcaption class="info">
+            <h6 class="title">Reasonable prices</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmor</p>
+          </figcaption>
+        </figure>
+        <!-- itemside // -->
+      </div>
+      <!-- col // -->
+      <div class="col-lg-4 col-md-6">
+        <figure class="d-flex align-items-center mb-4">
+          <span class="rounded-circle bg-white p-3 d-flex me-2 mb-2">
+            <i class="fas fa-star fa-2x fa-fw text-primary floating"></i>
+          </span>
+          <figcaption class="info">
+            <h6 class="title">Best quality</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmor</p>
+          </figcaption>
+        </figure>
+        <!-- itemside // -->
+      </div>
+      <!-- col // -->
+      <div class="col-lg-4 col-md-6">
+        <figure class="d-flex align-items-center mb-4">
+          <span class="rounded-circle bg-white p-3 d-flex me-2 mb-2">
+            <i class="fas fa-plane fa-2x fa-fw text-primary floating"></i>
+          </span>
+          <figcaption class="info">
+            <h6 class="title">Worldwide shipping</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmor</p>
+          </figcaption>
+        </figure>
+        <!-- itemside // -->
+      </div>
+      <!-- col // -->
+      <div class="col-lg-4 col-md-6">
+        <figure class="d-flex align-items-center mb-4">
+          <span class="rounded-circle bg-white p-3 d-flex me-2 mb-2">
+            <i class="fas fa-users fa-2x fa-fw text-primary floating"></i>
+          </span>
+          <figcaption class="info">
+            <h6 class="title">Customer satisfaction</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmor</p>
+          </figcaption>
+        </figure>
+        <!-- itemside // -->
+      </div>
+      <!-- col // -->
+      <div class="col-lg-4 col-md-6">
+        <figure class="d-flex align-items-center mb-4">
+          <span class="rounded-circle bg-white p-3 d-flex me-2 mb-2">
+            <i class="fas fa-thumbs-up fa-2x fa-fw text-primary floating"></i>
+          </span>
+          <figcaption class="info">
+            <h6 class="title">Happy customers</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmor</p>
+          </figcaption>
+        </figure>
+        <!-- itemside // -->
+      </div>
+      <!-- col // -->
+      <div class="col-lg-4 col-md-6">
+        <figure class="d-flex align-items-center mb-4">
+          <span class="rounded-circle bg-white p-3 d-flex me-2 mb-2">
+            <i class="fas fa-box fa-2x fa-fw text-primary floating"></i>
+          </span>
+          <figcaption class="info">
+            <h6 class="title">Thousand items</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmor</p>
+          </figcaption>
+        </figure>
+        <!-- itemside // -->
+      </div>
+      <!-- col // -->
+    </div>
+  </div>
+  <!-- container end.// -->
+</section>
+<!-- Feature -->
+
+<!-- Blog -->
+<section class="mt-5 mb-4">
+  <div class="container text-dark">
+    <header class="mb-4">
+      <h3>Blog posts</h3>
+    </header>
+
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+        <article>
+          <a href="#" class="img-fluid">
+            <img class="rounded w-100" src="data:image/jpeg;base64,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" style="object-fit: cover;" height="160" />
+          </a>
+          <div class="mt-2 text-muted small d-block mb-1">
+            <span>
+              <i class="fa fa-calendar-alt fa-sm"></i>
+              23.12.2022
+            </span>
+            <a href="#"><h6 class="text-dark">Black Hole is here now!!!</h6></a>
+            <p>When you enter into any new area of science, you almost reach</p>
+          </div>
+        </article>
+      </div>
+      <!-- col.// -->
+      <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+        <article>
+          <a href="#" class="img-fluid">
+            <img class="rounded w-100" src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/posts/2.webp" style="object-fit: cover;" height="160" />
+          </a>
+          <div class="mt-2 text-muted small d-block mb-1">
+            <span>
+              <i class="fa fa-calendar-alt fa-sm"></i>
+              13.12.2022
+            </span>
+            <a href="#"><h6 class="text-dark">How we handle shipping</h6></a>
+            <p>When you enter into any new area of science, you almost reach</p>
+          </div>
+        </article>
+      </div>
+      <!-- col.// -->
+      <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+        <article>
+          <a href="#" class="img-fluid">
+            <img class="rounded w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-220fAJrbx7I4mGxDEy5BTYT87eoXB4eMjcPT5dKI&s" style="object-fit: cover;" height="160" />
+          </a>
+          <div class="mt-2 text-muted small d-block mb-1">
+            <span>
+              <i class="fa fa-calendar-alt fa-sm"></i>
+              25.11.2022
+            </span>
+            <a href="#"><h6 class="text-dark">How to promote brands</h6></a>
+            <p>When you enter into any new area of science, you almost reach</p>
+          </div>
+        </article>
+      </div>
+      <!-- col.// -->
+      <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+        <article>
+          <a href="#" class="img-fluid">
+            <img class="rounded w-100" src="https://img.freepik.com/premium-photo/young-woman-with-laptop-sitting-floor-pointing-finger-side_1368-53401.jpg" style="object-fit: cover;" height="160" />
+          </a>
+          <div class="mt-2 text-muted small d-block mb-1">
+            <span>
+              <i class="fa fa-calendar-alt fa-sm"></i>
+              03.09.2022
+            </span>
+            <a href="#"><h6 class="text-dark">Success story of sellers</h6></a>
+            <p>When you enter into any new area of science, you almost reach</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Blog -->
+
+<!-- Footer -->
+<footer class="text-center text-lg-start text-muted mt-3" style="background-color: #f5f5f5;">
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start pt-4 pb-4">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-12 col-lg-3 col-sm-12 mb-2">
+          <!-- Content -->
+          <a href="https://mdbootstrap.com/" target="_blank" class="brandLink">
+            <h3 class="BrandName"><span>NIX</span><span class="cut">XON</span> </h3>
+            <!-- <img src="https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.png" height="35" /> -->
+            <!-- <h2>NIXXON</h2> -->
+          </a>
+          <p class="mt-2 text-dark">
+            © 2023 Copyright: NIXXON.com
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-6 col-sm-4 col-lg-2">
+          <!-- Links -->
+          <h6 class="text-uppercase text-dark fw-bold mb-2">
+            Store
+          </h6>
+          <ul class="list-unstyled mb-4">
+            <li><a class="text-muted" href="#">About us</a></li>
+            <li><a class="text-muted" href="#">Find store</a></li>
+            <li><a class="text-muted" href="#">Categories</a></li>
+            <li><a class="text-muted" href="#">Blogs</a></li>
+          </ul>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-6 col-sm-4 col-lg-2">
+          <!-- Links -->
+          <h6 class="text-uppercase text-dark fw-bold mb-2">
+            Information
+          </h6>
+          <ul class="list-unstyled mb-4">
+            <li><a class="text-muted" href="#">Help center</a></li>
+            <li><a class="text-muted" href="#">Money refund</a></li>
+            <li><a class="text-muted" href="#">Shipping info</a></li>
+            <li><a class="text-muted" href="#">Refunds</a></li>
+          </ul>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-6 col-sm-4 col-lg-2">
+          <!-- Links -->
+          <h6 class="text-uppercase text-dark fw-bold mb-2">
+            Support
+          </h6>
+          <ul class="list-unstyled mb-4">
+            <li><a class="text-muted" href="#">Help center</a></li>
+            <li><a class="text-muted" href="#">Documents</a></li>
+            <li><a class="text-muted" href="#">Account restore</a></li>
+            <li><a class="text-muted" href="#">My orders</a></li>
+          </ul>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-12 col-sm-12 col-lg-3">
+          <!-- Links -->
+          <h6 class="text-uppercase text-dark fw-bold mb-2">Newsletter</h6>
+          <p class="text-muted">Stay in touch with latest updates about our products and offers</p>
+          <div class="input-group mb-3">
+            <input type="email" class="form-control border" placeholder="Email" aria-label="Email" aria-describedby="button-addon2" />
+            <button class="btn btn-light border shadow-0" type="button" id="button-addon2" data-mdb-ripple-color="dark">
+              Join
+            </button>
+          </div>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <div class="">
+    <div class="container">
+      <div class="d-flex justify-content-between py-4 border-top">
+        <!--- payment --->
+        <div>
+          <i class="fab fa-lg fa-cc-visa text-dark"></i>
+          <i class="fab fa-lg fa-cc-amex text-dark"></i>
+          <i class="fab fa-lg fa-cc-mastercard text-dark"></i>
+          <i class="fab fa-lg fa-cc-paypal text-dark"></i>
+        </div>
+        <!--- payment --->
+
+        <!--- language selector --->
+        <div class="nav-wrapper">
+          <div class="sl-nav">
+            Lang:
+            <ul>
+              <li><b>English</b> <i class="fa fa-angle-down" aria-hidden="true"></i>
+                <div class="triangle"></div>
+                <ul>
+                  <li><i class="sl-flag flag-usa"><div id="germany"></div></i> <span class="active">English</span></li>
+                  <li><img src="C:\Users\Asus\Desktop\E-commerce\images\Indian Flag.png" alt="" width="18px" class="indian"><div id="germany"></div></i> <span >हिंदी</span></li>
+                  <li><i class="sl-flag flag-de"><div id="germany"></div></i> <span >Deutsch</span></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--- language selector --->
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Footer -->
+    <!-- MDB -->
+    <!-- <script type="text/javascript" src="js/mdb.min.js"></script> -->
+    <!-- Custom scripts -->
+    <!-- <script type="text/javascript" src="js/script.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
+
